@@ -26,7 +26,7 @@ class AppDelegate
   end
 
   def start_timer
-    timer = EM.add_periodic_timer 0.1 do
+    timer = EM.add_periodic_timer 0.001 do
       # NSThread.detachNewThreadSelector('publish', toTarget: self, withObject: nil)  
       publish
    end
@@ -90,7 +90,7 @@ class AppDelegate
     bytesPerRow =((bitsPerComponent * @imageView.image.size.width) / 8) * componentsPerPixel
     colorSpace = CGColorSpaceCreateDeviceRGB()
     
-    p "image size:  #{anImage.size.width}, #{anImage.size.height}"
+    # p "image size:  #{anImage.size.width}, #{anImage.size.height}"
     
     
     imageRep = NSBitmapImageRep.alloc.initWithData(anImage.TIFFRepresentation)
@@ -103,7 +103,7 @@ class AppDelegate
 
     texture = GLKTextureLoader.textureWithCGImage(pixelData, options:nil, error:nil)
 
-    p "texture: #{texture.name}, #{texture.width}, #{texture.height}"
+    # p "texture: #{texture.name}, #{texture.width}, #{texture.height}"
     
     if @syphonServer.hasClients
       @syphonServer.publishFrameTexture(texture.name,
