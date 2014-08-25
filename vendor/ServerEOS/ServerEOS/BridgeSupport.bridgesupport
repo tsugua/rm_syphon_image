@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='ServerEOS'>
+<method selector='createServer:withView:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<arg declared_type='NSOpenGLView*' index='1' name='view' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+</signatures>

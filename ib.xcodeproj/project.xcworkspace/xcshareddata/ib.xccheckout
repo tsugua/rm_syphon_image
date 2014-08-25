@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C259EBE-900B-46FC-AEC2-536A3290E30A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ib</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C99FEAF2F42F6FBF2D4EA5D9D52FAE61DD6D58EF</key>
+		<string>https://github.com/infinitered/eos_syphon_rubymotion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ib.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C99FEAF2F42F6FBF2D4EA5D9D52FAE61DD6D58EF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/infinitered/eos_syphon_rubymotion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C99FEAF2F42F6FBF2D4EA5D9D52FAE61DD6D58EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C99FEAF2F42F6FBF2D4EA5D9D52FAE61DD6D58EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eos_syphon_image</string>
+		</dict>
+	</array>
+</dict>
+</plist>

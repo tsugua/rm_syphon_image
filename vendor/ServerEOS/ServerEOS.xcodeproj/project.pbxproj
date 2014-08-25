@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AAB9EFE199750E600474227 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB9EFD199750E600474227 /* Cocoa.framework */; };
+		6AAB9F08199750E600474227 /* ServerEOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB9F07199750E600474227 /* ServerEOS.m */; };
+		6AAB9F0F199750E600474227 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB9F0E199750E600474227 /* XCTest.framework */; };
+		6AAB9F10199750E600474227 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB9EFD199750E600474227 /* Cocoa.framework */; };
+		6AAB9F13199750E600474227 /* libServerEOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB9EFA199750E600474227 /* libServerEOS.a */; };
+		6AB0C5591998210100358AC3 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0C5581998210100358AC3 /* Syphon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AAB9F11199750E600474227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAB9EF2199750E600474227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAB9EF9199750E600474227;
+			remoteInfo = ServerEOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AAB9EFA199750E600474227 /* libServerEOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libServerEOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAB9EFD199750E600474227 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6AAB9F00199750E600474227 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AAB9F01199750E600474227 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6AAB9F02199750E600474227 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6AAB9F05199750E600474227 /* ServerEOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerEOS-Prefix.pch"; sourceTree = "<group>"; };
+		6AAB9F06199750E600474227 /* ServerEOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerEOS.h; sourceTree = "<group>"; };
+		6AAB9F07199750E600474227 /* ServerEOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerEOS.m; sourceTree = "<group>"; };
+		6AAB9F0D199750E600474227 /* ServerEOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerEOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAB9F0E199750E600474227 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AB0C5581998210100358AC3 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AAB9EF7199750E600474227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB9EFE199750E600474227 /* Cocoa.framework in Frameworks */,
+				6AB0C5591998210100358AC3 /* Syphon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB9F0A199750E600474227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB9F13199750E600474227 /* libServerEOS.a in Frameworks */,
+				6AAB9F10199750E600474227 /* Cocoa.framework in Frameworks */,
+				6AAB9F0F199750E600474227 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AAB9EF1199750E600474227 = {
+			isa = PBXGroup;
+			children = (
+				6AAB9F03199750E600474227 /* ServerEOS */,
+				6AAB9EFC199750E600474227 /* Frameworks */,
+				6AAB9EFB199750E600474227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAB9EFB199750E600474227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB9EFA199750E600474227 /* libServerEOS.a */,
+				6AAB9F0D199750E600474227 /* ServerEOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAB9EFC199750E600474227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0C5581998210100358AC3 /* Syphon.framework */,
+				6AAB9EFD199750E600474227 /* Cocoa.framework */,
+				6AAB9F0E199750E600474227 /* XCTest.framework */,
+				6AAB9EFF199750E600474227 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AAB9EFF199750E600474227 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB9F00199750E600474227 /* Foundation.framework */,
+				6AAB9F01199750E600474227 /* CoreData.framework */,
+				6AAB9F02199750E600474227 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6AAB9F03199750E600474227 /* ServerEOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB9F06199750E600474227 /* ServerEOS.h */,
+				6AAB9F07199750E600474227 /* ServerEOS.m */,
+				6AAB9F04199750E600474227 /* Supporting Files */,
+			);
+			path = ServerEOS;
+			sourceTree = "<group>";
+		};
+		6AAB9F04199750E600474227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB9F05199750E600474227 /* ServerEOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AAB9EF8199750E600474227 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6AAB9EF9199750E600474227 /* ServerEOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAB9F1E199750E600474227 /* Build configuration list for PBXNativeTarget "ServerEOS" */;
+			buildPhases = (
+				6AAB9EF6199750E600474227 /* Sources */,
+				6AAB9EF7199750E600474227 /* Frameworks */,
+				6AAB9EF8199750E600474227 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerEOS;
+			productName = ServerEOS;
+			productReference = 6AAB9EFA199750E600474227 /* libServerEOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6AAB9F0C199750E600474227 /* ServerEOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAB9F21199750E600474227 /* Build configuration list for PBXNativeTarget "ServerEOSTests" */;
+			buildPhases = (
+				6AAB9F09199750E600474227 /* Sources */,
+				6AAB9F0A199750E600474227 /* Frameworks */,
+				6AAB9F0B199750E600474227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAB9F12199750E600474227 /* PBXTargetDependency */,
+			);
+			name = ServerEOSTests;
+			productName = ServerEOSTests;
+			productReference = 6AAB9F0D199750E600474227 /* ServerEOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAB9EF2199750E600474227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EOS;
+			};
+			buildConfigurationList = 6AAB9EF5199750E600474227 /* Build configuration list for PBXProject "ServerEOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AAB9EF1199750E600474227;
+			productRefGroup = 6AAB9EFB199750E600474227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAB9EF9199750E600474227 /* ServerEOS */,
+				6AAB9F0C199750E600474227 /* ServerEOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAB9F0B199750E600474227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AAB9EF6199750E600474227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB9F08199750E600474227 /* ServerEOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB9F09199750E600474227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AAB9F12199750E600474227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAB9EF9199750E600474227 /* ServerEOS */;
+			targetProxy = 6AAB9F11199750E600474227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AAB9F1C199750E600474227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AAB9F1D199750E600474227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AAB9F1F199750E600474227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerEOS/ServerEOS-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AAB9F20199750E600474227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerEOS/ServerEOS-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AAB9F22199750E600474227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerEOS/ServerEOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ServerEOSTests/ServerEOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6AAB9F23199750E600474227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerEOS/ServerEOS-Prefix.pch";
+				INFOPLIST_FILE = "ServerEOSTests/ServerEOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AAB9EF5199750E600474227 /* Build configuration list for PBXProject "ServerEOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB9F1C199750E600474227 /* Debug */,
+				6AAB9F1D199750E600474227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB9F1E199750E600474227 /* Build configuration list for PBXNativeTarget "ServerEOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB9F1F199750E600474227 /* Debug */,
+				6AAB9F20199750E600474227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB9F21199750E600474227 /* Build configuration list for PBXNativeTarget "ServerEOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB9F22199750E600474227 /* Debug */,
+				6AAB9F23199750E600474227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAB9EF2199750E600474227 /* Project object */;
+}
