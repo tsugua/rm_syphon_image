@@ -5,4 +5,4 @@ NSImage to Syphon.
 
 Converted from https://github.com/atduskgreg/ImageToSyphon
 
-Thanks to willrax for getting the syphon server to work in RubyMotion
+Thanks to willrax https://github.com/willrax for getting the syphon server to work in RubyMotion
